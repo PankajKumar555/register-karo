@@ -18,7 +18,7 @@ export const Hero = () => {
 
   return (
     <Box>
-      <Box sx={{ position: "relative", height: { xs: "60rem", sm: "50rem" } }}>
+      <Box sx={{ position: "relative", height: { xs: "60rem", sm: "40rem" } }}>
         <Box
           sx={{
             position: "absolute",
@@ -61,7 +61,7 @@ export const Hero = () => {
               justifyContent: "left",
               alignItems: "center",
               fontWeight: "bold",
-              margin: "3rem 0px 1rem",
+              margin: "2rem 0px 1rem",
             }}
             variant="body2"
           >
@@ -78,7 +78,7 @@ export const Hero = () => {
             className="text-with-line"
             sx={{ fontWeight: "600", margin: "1.5rem 0px" }}
           >
-            Your trusted partner <br /> for compliance business needs
+            Your trusted partner for compliance business needs
           </Typography>
           <Typography
             variant="h6"
